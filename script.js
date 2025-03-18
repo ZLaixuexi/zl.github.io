@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
 
     // 简单的验证逻辑
-    if (username === 'zl_ym' && password === '1314520') {
+    if (username === 'zlandym' && password === '1314520') {
         // 登录成功，跳转到 welcome.html
         window.location.href = 'welcome.html';
     } else {
